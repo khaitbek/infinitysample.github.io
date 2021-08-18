@@ -66,7 +66,7 @@ nav{
     border: none;
     outline: none;
     color: #000;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     font-size: 16px;
@@ -444,6 +444,39 @@ iframe{
     width: 500px;
     height: 300px;
 }
+footer{
+    background: #000;
+    
+    
+    width: 100%;
+    height: 15vh;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    
+}
+footer li{
+    list-style: none;
+    color: green;
+}
+.fab.fa-telegram{
+    color: rgb(0, 183, 255);
+    font-size: 20px;
+}
+.fab.fa-instagram{
+    color: #ea6f2e;
+    font-size: 20px;
+}
+.fab.fa-youtube{
+    font-size: 20px;
+    color: crimson;
+}
+.fab.fa-facebook{
+    color: blue;
+    font-size: 20px;
+}
 /* @media screen and (max-width:38px){
     .prostudy{
         position: relative;
@@ -637,8 +670,8 @@ iframe{
     .nav-links{
         position: fixed;
         background: darkred;
-        height: 100vh;
-        width: 100%;
+        /* height: 100vh; */
+        width: 105%;
         z-index: 100;
         flex-direction: column;
        
@@ -715,28 +748,17 @@ iframe{
         grid-row-gap: 0.5rem;
     }
 }
-/* @media screen and (max-width:500px){
-    .logo{
-        width: 10%;
-        margin-left: 10px;
-        font-size: 12px;
+@media screen and (max-width:500px){
+    footer{
+        width: 110%;
     }
-    
+    nav{
+        width: 110% !important;
+    }
     .register{
-        padding: 5px;
-        font-size: 6px;
-        width: 20%;
+        font-size: 8px !important;
     }
-    
-    select{
-        font-size: 12px !important;
-        padding: 5px !important;
-    }
-    .select::after{
-        padding: 0.08rem 0.3rem;
-        
-    }
-} */
+}
 .intro{
     background: #000;
     position: fixed;
@@ -761,4 +783,9 @@ iframe{
 .hide span{
     transform: translateY(100%);
     display: inline-block;
+}
+@media screen and (min-width:970px){
+    footer{
+        position: sticky;
+    }
 }
