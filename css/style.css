@@ -25,12 +25,19 @@ body{
 nav{
     min-height: 10vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0 10px 15px rgba(0,0,0,0.4);
     background: #fff;
 }
-
+.social{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap-reverse;
+    margin-right: auto;
+}
 .nav-links{
     display: flex;
     list-style: none;
