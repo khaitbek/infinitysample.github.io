@@ -3,7 +3,7 @@ let tl_ = gsap.timeline({ defaults: { ease: "power1.out" } });
 let items = {
   proStudy: {
     title: "Infinity Pro Study",
-    img: `./images/prostudy_emblem_png.png`,
+    img: `./images/prostudy_emblem.svg`,
     text: "We develop a passion for learning!",
   },
   proBook: {

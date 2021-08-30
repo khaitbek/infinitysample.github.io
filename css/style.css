@@ -469,6 +469,8 @@ footer{
 footer li{
     list-style: none;
     color: green;
+    letter-spacing: 1px;
+    font-family: 'JetBrains Mono';
 }
 .fab.fa-telegram{
     color: rgb(0, 183, 255);
